@@ -2,6 +2,8 @@ package JavaTest;
 
 import static org.testng.Assert.assertEquals;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,11 +35,13 @@ public class WindowHandling {
 		text.click();
 		for (String window : driver.getWindowHandles()) {
 			driver.switchTo().window(window);
+			String Url = driver.getCurrentUrl();
+			System.out.println(Url);
 		}
 		WebElement newWindow = driver.findElement(By.xpath("//h3"));
 		String windowText = newWindow.getText();
 		assertEquals(windowText, "New Window");
-		driver.close();// close the instance of the current Tab
+		// driver.close();// close the instance of the current Tab
 		// Switch back to the main window
 		driver.switchTo().window(mainWindowHandle);
 		Thread.sleep(3000);
