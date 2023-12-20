@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T18:28:29 IST" name="Default suite" finished-at="2023-12-20T18:29:04 IST" duration-ms="35680">
+    <groups>
+    </groups>
+    <test started-at="2023-12-20T18:28:29 IST" name="Default test" finished-at="2023-12-20T18:29:04 IST" duration-ms="35680">
+      <class name="JavaTest.WindowHandling">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:JavaTest.WindowHandling@32502377]" started-at="2023-12-20T18:28:29 IST" name="initialization" finished-at="2023-12-20T18:29:00 IST" duration-ms="31650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="main()[pri:0, instance:JavaTest.WindowHandling@32502377]" started-at="2023-12-20T18:29:00 IST" name="main" finished-at="2023-12-20T18:29:04 IST" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:JavaTest.WindowHandling@32502377]" started-at="2023-12-20T18:29:04 IST" name="driverClose" finished-at="2023-12-20T18:29:04 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- JavaTest.WindowHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

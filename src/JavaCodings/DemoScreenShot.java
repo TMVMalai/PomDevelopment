@@ -17,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DemoScreenShot {
 
 	@Test
-	public void screenShot() throws InterruptedException {
+	public void screenShot() throws InterruptedException, IOException {
 WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver=new ChromeDriver();
@@ -31,7 +31,7 @@ WebDriverManager.chromedriver().setup();
 		
 		Thread.sleep(2000);
 		//Select the target element
-		WebElement usernameField=driver.findElement(By.xpath("//input[@placeholder='Username']"));
+		WebElement usernameField=driver.findElement(By.xpath("//input[@name='username']"));
 		
 		usernameField.sendKeys("Admin");
 		
@@ -46,13 +46,8 @@ WebDriverManager.chromedriver().setup();
 		//capture screenshot of the page
 		TakesScreenshot tk=(TakesScreenshot) driver;
 		File f=tk.getScreenshotAs(OutputType.FILE);
-		File f1=new File("D:\\JavaConcept\\Seleniumconcepts\\dashboard.png");
-		try {
-			FileUtils.copyFile(f,f1);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}//copy the file from one type to another
+		File f1=new File("/Users/thirumalaivasanperumal/eclipse-workspace/PomDevelopment");
+		FileUtils.copyFile(f,f1);
 		System.out.println("Screenshot captured successfully....");
 		System.out.println("Screenshot captured successfully....");
 	}
