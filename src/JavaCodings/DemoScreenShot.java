@@ -46,7 +46,7 @@ WebDriverManager.chromedriver().setup();
 		//capture screenshot of the page
 		TakesScreenshot tk=(TakesScreenshot) driver;
 		File f=tk.getScreenshotAs(OutputType.FILE);
-		File f1=new File("/Users/thirumalaivasanperumal/eclipse-workspace/PomDevelopment");
+		File f1=new File("* /Users/thirumalaivasanperumal/eclipse-workspace/PomDevelopment\n");
 		FileUtils.copyFile(f,f1);
 		System.out.println("Screenshot captured successfully....");
 		System.out.println("Screenshot captured successfully....");

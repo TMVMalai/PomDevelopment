@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-20T18:43:47 IST" name="Default suite" finished-at="2023-12-20T18:44:14 IST" duration-ms="26890">
+  <suite started-at="2023-12-21T13:27:15 IST" name="Default suite" finished-at="2023-12-21T13:27:31 IST" duration-ms="16246">
     <groups>
     </groups>
-    <test started-at="2023-12-20T18:43:47 IST" name="Default test" finished-at="2023-12-20T18:44:14 IST" duration-ms="26890">
-      <class name="JavaTest.WindowHandling">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:JavaTest.WindowHandling@32502377]" started-at="2023-12-20T18:43:47 IST" name="initialization" finished-at="2023-12-20T18:44:10 IST" duration-ms="23012" status="PASS">
+    <test started-at="2023-12-21T13:27:15 IST" name="Default test" finished-at="2023-12-21T13:27:31 IST" duration-ms="16246">
+      <class name="JavaTest.DropdownSelection">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:JavaTest.DropdownSelection@21282ed8]" started-at="2023-12-21T13:27:15 IST" name="initialization" finished-at="2023-12-21T13:27:30 IST" duration-ms="15192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="main()[pri:0, instance:JavaTest.WindowHandling@32502377]" started-at="2023-12-20T18:44:10 IST" name="main" finished-at="2023-12-20T18:44:14 IST" duration-ms="3709" status="PASS">
+        <test-method signature="m1()[pri:0, instance:JavaTest.DropdownSelection@21282ed8]" started-at="2023-12-21T13:27:30 IST" name="m1" finished-at="2023-12-21T13:27:31 IST" duration-ms="1020" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:JavaTest.WindowHandling@32502377]" started-at="2023-12-20T18:44:14 IST" name="driverClose" finished-at="2023-12-20T18:44:14 IST" duration-ms="120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverClose -->
-      </class> <!-- JavaTest.WindowHandling -->
+        </test-method> <!-- m1 -->
+      </class> <!-- JavaTest.DropdownSelection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
