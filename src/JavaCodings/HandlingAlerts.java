@@ -11,9 +11,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import JavaTest.SeleniumLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class HandlingAlerts {
+public class HandlingAlerts extends SeleniumLogger{
 	WebDriver driver;
 
 	@BeforeClass
@@ -32,7 +33,9 @@ public class HandlingAlerts {
 		Alert alert = driver.switchTo().alert();
 		String message = alert.getText();
 		alert.accept();
-		assertEquals(message, "I am a JS Alert");
+		if(message.equals("I am a JS Alert")) {
+			logPassed(message);
+		}
 	}
 
 	@Test

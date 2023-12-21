@@ -12,5 +12,12 @@ public class commonaction {
 		return name;
 		
 	}
+	public String SelectDropdownFromVisibleTextSearch(WebElement Dropdown,String name) {
+		Dropdown.click();
+		Dropdown.sendKeys(name);
+		driver.findElement(By.xpath("//option[text()='"+name+"']")).click();
+		return name;
+		
+	}
 
 }

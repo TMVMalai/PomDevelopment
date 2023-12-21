@@ -28,6 +28,7 @@ public class DropdownSelection extends commonaction {
 		  WebElement selectcurrency=driver.findElement(By.xpath("(//div/select)[3]"));
 		  SelectDropdownFromVisibleText(selectcurrency,"INR");
 		  SelectDropdownFromVisibleText(selectcurrency,"USD");
+		 
 		  
 	  }
 
