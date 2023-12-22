@@ -1,5 +1,8 @@
 package JavaTest;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -50,7 +53,8 @@ public class JavaScriptExecutor extends commonaction {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		for(int i=0;i<5;i++) {
 			js.executeScript("window.scrollBy(0,80)");
-			Thread.sleep(500);
+			//Thread.sleep(500);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10) );
 		}
 		Thread.sleep(3000);
 		for(int i=0;i<5;i++) {

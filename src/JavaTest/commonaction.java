@@ -9,6 +9,7 @@ public class commonaction {
 	WebDriver driver;
 
 	public String SelectDropdownFromVisibleText(WebElement Dropdown,String name) {
+		//driver = TLDriverfactory.getTLDriver();
 		Dropdown.click();
 		driver.findElement(By.xpath("//span[text()='"+name+"']")).click();
 		return name;
