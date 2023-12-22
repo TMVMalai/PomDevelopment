@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T13:09:19 IST" name="Default suite" finished-at="2023-12-22T13:09:36 IST" duration-ms="17612">
+  <suite started-at="2023-12-22T13:18:19 IST" name="Default suite" finished-at="2023-12-22T13:18:20 IST" duration-ms="976">
     <groups>
     </groups>
-    <test started-at="2023-12-22T13:09:19 IST" name="Default test" finished-at="2023-12-22T13:09:36 IST" duration-ms="17612">
-      <class name="JavaCodings.DatePickerTask">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:JavaCodings.DatePickerTask@82de64a]" started-at="2023-12-22T13:09:19 IST" name="initialization" finished-at="2023-12-22T13:09:32 IST" duration-ms="13288" status="PASS">
+    <test started-at="2023-12-22T13:18:19 IST" name="Default test" finished-at="2023-12-22T13:18:20 IST" duration-ms="976">
+      <class name="JavaTest.NewExcelData">
+        <test-method signature="excelWritter()[pri:0, instance:JavaTest.NewExcelData@66d3eec0]" started-at="2023-12-22T13:18:19 IST" name="excelWritter" finished-at="2023-12-22T13:18:20 IST" duration-ms="932" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="main()[pri:0, instance:JavaCodings.DatePickerTask@82de64a]" started-at="2023-12-22T13:09:32 IST" name="main" finished-at="2023-12-22T13:09:36 IST" duration-ms="4106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:JavaCodings.DatePickerTask@82de64a]" started-at="2023-12-22T13:09:36 IST" name="driverClose" finished-at="2023-12-22T13:09:36 IST" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverClose -->
-      </class> <!-- JavaCodings.DatePickerTask -->
+        </test-method> <!-- excelWritter -->
+      </class> <!-- JavaTest.NewExcelData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
