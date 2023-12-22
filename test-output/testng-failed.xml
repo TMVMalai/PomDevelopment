@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaTest.WindowHandling">
+      <class name="JavaTest.JavaScriptExecutor">
         <methods>
-          <include name="driverClose"/>
+          <include name="m2"/>
           <include name="initialization"/>
-          <include name="main"/>
         </methods>
-      </class> <!-- JavaTest.WindowHandling -->
+      </class> <!-- JavaTest.JavaScriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
