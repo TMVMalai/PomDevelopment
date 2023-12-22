@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaTest.JavaScriptExecutor">
+      <class name="WindowsAndFrames.NestedFrames">
         <methods>
-          <include name="m2"/>
           <include name="initialization"/>
+          <include name="driverclose"/>
+          <include name="handlingiframe"/>
         </methods>
-      </class> <!-- JavaTest.JavaScriptExecutor -->
+      </class> <!-- WindowsAndFrames.NestedFrames -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
